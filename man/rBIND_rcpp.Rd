@@ -21,6 +21,8 @@ DataFrame como parametro.
 Funcion que realiza la union de un DataFrame o Matriz con un vector.
 }
 \examples{
+x <- c(2,3,4,5)
+x
 matrizPrueba1 <- matrix(round(runif(16, 1, 10)), nrow = 4, ncol = 4);
 set.seed(123);
 matrizPrueba1;
