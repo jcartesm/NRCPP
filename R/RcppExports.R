@@ -124,11 +124,11 @@ whichMAX_rcpp <- function(x) {
 }
 
 #'@title Buscardor de indices de maximos en Objetos de R
-#'@description Funcion que realiza la busqueda de el o los minimos dentro de 
+#'@description Funcion que realiza la busqueda de el o los minimos dentro de
 #'un objeto de R.
 #'@param RObjeto A : Objeto R para la realizacion de la busqueda de indice de minimo.
 #'@return Devuelve un DataFrame conteniendo en sus columnas las posiciones en las que
-#'se encuentran el o los valores minimos dentro del objeto. 
+#'se encuentran el o los valores minimos dentro del objeto.
 #'@example
 #'matrizPrueba1 <- matrix(round(runif(16, 1, 10)), nrow = 4, ncol = 4)
 #'set.seed(123)
